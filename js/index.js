@@ -38,3 +38,6 @@ function flexibleSofa() {
     countFunction('produckPrice9', 'total');
 
 }
+function closeFun() {
+    window.location = '/';
+}

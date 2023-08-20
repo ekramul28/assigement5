@@ -34,16 +34,19 @@ function countFunction(id1, id2) {
             console.log(minustCoust);
         } else {
             alert("Promo Code is Not Valid")
+
         }
+
+
     })
 
 
     const inputField = document.getElementById('input-field');
     const purchaseBtn = document.getElementById('purchase');
+    purchaseBtn.disabled = false;
     if (sum >= 200) {
         btnId.disabled = false;
         inputField.disabled = false;
-        purchaseBtn.disabled = false;
     }
 
 }
